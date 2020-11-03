@@ -1,0 +1,103 @@
+/* ==UserStyle==
+@name           Thingiverse Dark (by Jooch)
+@version        2020.11.1
+@description    Dark theme for Thingiverse.com
+@author         Jooch
+@namespace	Jooch
+@homepageURL    https://github.com/j00ch/stylish-themes
+@supportURL     https://github.com/j00ch/stylish-themes/issues
+@license        CC-BY-NC-SA-4.0
+==/UserStyle== */
+
+@-moz-document domain("www.thingiverse.com") {
+html, body {
+	background-color: #111118;
+    color: #aaa;
+}
+
+.SearchControls__withBanner--3IvL- {
+    margin-top: 0px;
+}
+
+.ShareThingBlock__shareWindowContainer--1OaE6 {
+    height: 0px;
+}
+
+.ScrollUpButton__button--1ZLLm
+, .HomePageBanner__homePageBanner--2GU_7
+, .ShareThingBlock__shareWindowContainer--1OaE6 {
+    visibility: hidden;
+}
+
+.Sort__dropdownButton--1myG8
+, .CategorySort__dropdownButton--gpHIi
+, .FilterBySort__dropdownButton--BxDpW
+, .Dropdown__dropdownItems--N6MD4
+, .ThingCard__thingCard--1IcHY
+, .ThingPage__gallery--SnBAG
+, .SidebarMenu__sidebarMenu--3uBjd
+, .ThingPage__mainColumn--25bWI
+, .MetricButton__tabButton--2rvo1
+, .WidgetContainer__widget--2Zkwj
+, .ThingComment__thingComment--LDUzY
+, .ThingCardBody__cardBodyWrapper--ba5pu
+, .ThingFilesList__thingFilesListContainer--3LLCQ, .ThingFilePolicy__thingFilePolicyContainer--2klpr {
+	background-color: #222228;
+}
+
+.Pagination__pageNumberWrapper--1Sao8 .Pagination__disabled--3-cbs {
+    color: #aaa!important;
+}
+
+.ThingPage__description--14TtH p
+, .ThingPage__preHistory--312bi p
+, .License__licenseText--728HQ
+, .CardActionItem__textWrapper--2wTM-
+, .ThingPage__modelName--3CMsV
+, .ThingPage__createdBy--1fVAy {
+	color: #bbb;
+}
+
+.ThingComment__modelName--Vqvbz
+, .ThingComment__createdBy--3RvU6 {
+    color: #bbb!important;
+}
+
+.Sort__titleDropdown--1_LTb
+, .CategorySort__dropdownTitle--XX-Wh
+, .FilterBySort__dropdownTitle--1O6PJ, .FilterBySort__eduDropdownTitle--1VzNJ
+, .CategoryItem__dataWrapper--1p2Cl span
+, .CategoryItem__dataWrapper--1p2Cl span:first-of-type
+, .ThingCardHeader__cardNameWrapper--3xgAZ
+, .ThingPage__blockTitle--3ZdLu
+, .MetricButton__metric--FqxBi
+, .MetricButton__tabTitle--2Xau7
+, .Contents__widgetTitle--2kuRB
+, .Tags__blockTitle--1yRzX
+, .License__licenseHeader--1fsYN
+, .ThingComment__commentBody--2xT45 {
+	color: #ccc;
+}
+
+.SideMenuItem__textWrapper--11bnt {
+    color: #ccc!important;
+}
+
+.ThingComment__buttonsBar--2RTRd {
+    border-top: solid 1px #112;
+}
+
+.ThingCardActions__rightActionsContainer--O1YxM > div:first-of-type
+, .SidebarMenu__sideMenuTop--3xCYh
+, .SideMenuItem__itemContainer--2VO4t
+, .ThingPage__galleryHeader--2CF9f
+, .ThingImageCarousel__carouselWrapper--FHNiQ .carousel.carousel-slider, .ThingImageCarousel__modalCarouselWrapper--1SWd7 .carousel.carousel-slider
+, .ThingFilesListHeader__header--g2B2I, .ThingFile__fileRow--15dj5 {
+	border-bottom: solid 1px #112;
+}
+
+.ThingCardActions__rightActionsContainer--O1YxM {
+
+	border-left: solid 1px #112;
+}
+}
